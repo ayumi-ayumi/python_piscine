@@ -2,7 +2,7 @@
 import sys
 av_list = sys.argv
 av_list_len = len(av_list)
-if (av_list_len == 1):
+if av_list_len == 1:
 	print("none")
 else:
 	print(av_list[1])
